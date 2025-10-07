@@ -1,0 +1,74 @@
+/* General Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* Container */
+.container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Course and Lesson Cards */
+.course-list, .lesson-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.course-card, .lesson-card {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  flex: 1 1 250px;
+}
+
+.course-card:hover, .lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Back Button */
+.back-btn {
+  background-color: #6c757d;
+}
+
+.back-btn:hover {
+  background-color: #495057;
+}
+
+/* Completed Course Button */
+.completed {
+  background-color: #28a745 !important;
+}
